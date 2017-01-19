@@ -41,7 +41,7 @@ public class MyApi {
          /*
           * Output user credentials over HTTP Output Stream
           */
-         byte[] outputBytes = "{'username': 'username', 'password':'mypassword'}".getBytes("UTF-8");
+         byte[] outputBytes = "{'username': 'rufus', 'password':'YUNOUSEAPIKEY'}".getBytes("UTF-8");
          OutputStream os = httpcon.getOutputStream();
          os.write(outputBytes);
          os.close();
