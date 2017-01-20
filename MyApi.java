@@ -24,7 +24,6 @@ public class MyApi {
   */
  public MyApi() {
          this.BaseUrl = "http://localhost/TESTAPI123/";
-	 this.apikey = "8d9dc9a93b50a39bb0f0a045cd8ebd3"
          this.ResponderUrl = "~api/search/room?action=GET";
          this.responderParameters = "fields=RowNumber%2CId%2CRoomName%2CRoomDescription%2CRoomNumber%2CRoomTypeName%2CBuildingCode%2CBuildingName%2CCampusName%2CCapacity%2CBuildingRoomNumberRoomName%2CCanEdit%2CCanDelete&sortOrder=%2BBuildingRoomNumberRoomName";
  }
