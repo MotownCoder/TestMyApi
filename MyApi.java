@@ -25,7 +25,7 @@ public class MyApi {
  public MyApi() {
          this.BaseUrl = "http://localhost/TESTAPI123/";
          this.ResponderUrl = "~api/search/room?action=GET";
-         this.responderParameters = "fields=RowNumber%2CId%2CRoomName%2CRoomDescription%2CRoomNumber%2CRoomTypeName%2CBuildingCode%2CBuildingName%2CCampusName%2CCapacity%2CBuildingRoomNumberRoomName%2CCanEdit%2CCanDelete&sortOrder=%2BBuildingRoomNumberRoomName";
+         this.responderParameters = "fields=RowNumber%2CId%2CClientSSN%2CClientName%2CPlanNumber%2CPlanType%2CPlanBalance%2CClientContactNumber%2CClientEmail&sortOrder=%2bClientSSN";
  }
  
  public String Login() throws MalformedURLException, IOException {
