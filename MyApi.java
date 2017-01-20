@@ -23,8 +23,8 @@ public class MyApi {
   *Constructor sets BaseUrl, ResponderUrl and ResponderParameters properties
   */
  public MyApi() {
-         this.BaseUrl = "http://localhost/TESTAPI123/";
-         this.ResponderUrl = "~api/search/room?action=GET";
+         this.BaseUrl = "http://localhost/clientinfo/";
+         this.ResponderUrl = "~api/search/client?action=GET";
          this.responderParameters = "fields=RowNumber%2CId%2CClientSSN%2CClientName%2CPlanNumber%2CPlanType%2CPlanBalance%2CClientContactNumber%2CClientEmail&sortOrder=%2bClientSSN";
  }
  
